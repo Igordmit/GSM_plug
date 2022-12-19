@@ -1,13 +1,12 @@
 #include <SoftwareSerial.h>
 #include <EEPROM.h>
-#define MAX_TIMER 4294967295
 
 SoftwareSerial mySerial(5, 6);
 
 String phoneNumber = "";
 String trustedNumber1 = "";
 String trustedNumber2 = "";
-String serviceNumber = "79242246759";
+String serviceNumber = "7**********";
 
 unsigned long timerCheckConnection = 0;
 unsigned long timerReset = 0;
